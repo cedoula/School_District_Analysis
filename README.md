@@ -95,10 +95,10 @@ The only changes are on the $630-644 range where the % Passing Reading and the %
 
 - Scores by School Size
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90918911-1f2a4c80-e3ab-11ea-87c0-c538166d07de.png">Pre correction
+  <img src="https://user-images.githubusercontent.com/68669675/90918911-1f2a4c80-e3ab-11ea-87c0-c538166d07de.png"><br/>Pre correction
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90918912-1f2a4c80-e3ab-11ea-9445-edd9b20feaa6.png">After correction
+  <img src="https://user-images.githubusercontent.com/68669675/90918912-1f2a4c80-e3ab-11ea-9445-edd9b20feaa6.png"><br/>After correction
 </p>
 The only change is on the Medium size school range where the % Passing Reading dropped by 0.1% to 96.7%.<br/><br/>
 
