@@ -86,7 +86,7 @@ As expected, the average math and reading scores for Thomas High School ninth gr
 
 - Scores by School Spending
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90918914-1f2a4c80-e3ab-11ea-93a7-53600aeb0cce.png">Pre correction
+  <img src="https://user-images.githubusercontent.com/68669675/90918914-1f2a4c80-e3ab-11ea-93a7-53600aeb0cce.png"><br/>Pre correction
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/68669675/90918915-1fc2e300-e3ab-11ea-8c84-b62876291a1a.png">After correction
