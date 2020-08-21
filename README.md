@@ -42,13 +42,28 @@ student_data_df.tail(10)
 
 - The district summary
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90834746-98c12c80-e310-11ea-9bb1-90c5b80a0cfa.png">
+  <img src="https://user-images.githubusercontent.com/68669675/90918895-1cc7f280-e3ab-11ea-86dc-11e3d5a0d1fd.png">Pre correction
 </p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90834746-98c12c80-e310-11ea-9bb1-90c5b80a0cfa.png">After correction
+</p>
+The district summary was barely affected by the correction made:<br/>
+- The average Math Score decreased by 0.1 point to 78.9.<br/>
+- The % Passing Math decreased by 0.2% to 74.8%.<br/>
+- The % Overall Passing decreased by 0.3% to 64.9%.<br/><br/>
 
 - The school summary
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90834757-99f25980-e310-11ea-824a-15157afc96a4.png">
+  <img src="https://user-images.githubusercontent.com/68669675/90918905-1e91b600-e3ab-11ea-8287-04cc30205d2c.png">Pre correction
 </p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918909-1f2a4c80-e3ab-11ea-90b7-3296810ec63b.png">After correction
+</p>
+The school summary was slightly affected by the correction made:<br/>
+- The average Reading Score increased by 0.1 point to 83.9.<br/>
+- The % Passing Math decreased by 0.1% to 93.2%.<br/>
+- The % Passing Math decreased by 0.3% to 97.0%.<br/>
+- The % Overall Passing decreased by 0.3% to 90.6%.<br/><br/>
 
 - High and Low performing schools based on the overall passing rate
 <p align="center">
@@ -59,13 +74,40 @@ student_data_df.tail(10)
   <img src="https://user-images.githubusercontent.com/68669675/90836950-4551dd00-e316-11ea-82e8-8dc7fbc9b609.png">
   Bottom 5 schools
 </p>
+The 5 highest and 5 lowest performing schools ranking in the district was not affected by the correction.<br/><br/>
 
 - Math and Reading Scores by Grade
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/90834748-98c12c80-e310-11ea-8e79-5471f2832077.png">math
-
-  <img src="https://user-images.githubusercontent.com/68669675/90834752-9959c300-e310-11ea-921d-dbe0afd02c4d.png">reading
+  <img src="https://user-images.githubusercontent.com/68669675/90834748-98c12c80-e310-11ea-8e79-5471f2832077.png">
+  <img src="https://user-images.githubusercontent.com/68669675/90834752-9959c300-e310-11ea-921d-dbe0afd02c4d.png"> 
 </p>
+<p align="center">Math scores (left) and Reading scores (right)</p>
+As expected, the average math and reading scores for Thomas High School ninth graders show as NaN on the math and reading scores by grade summary. <br/><br/>
+
+- Scores by School Spending
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918914-1f2a4c80-e3ab-11ea-93a7-53600aeb0cce.png">Pre correction
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918915-1fc2e300-e3ab-11ea-8c84-b62876291a1a.png">After correction
+</p>
+The only changes are on the $630-644 range where the % Passing Reading and the % Overall Passing both dropped by 0.1% to respectively 84.3% and 62.8%.<br/><br/>
+
+- Scores by School Size
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918911-1f2a4c80-e3ab-11ea-87c0-c538166d07de.png">Pre correction
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918912-1f2a4c80-e3ab-11ea-9445-edd9b20feaa6.png">After correction
+</p>
+The only change is on the Medium size school range where the % Passing Reading dropped by 0.1% to 96.7%.<br/><br/>
+
+- Scores by School Type
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/90918919-205b7980-e3ab-11ea-9c0c-cd1ead21a6ca.png">
+</p>
+There is no noticeable change to the scores by school type summary after correction.<br/><br/>
 
 ## Summary
-
+Replacing the math and reading scores did not imply any major change to the school district analysis.\
+The following metrics were slightly affected by the correction: the district summary, the school summary for Thomas High School, the scores by school spending and the scores by school size summaries.
