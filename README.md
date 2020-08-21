@@ -110,4 +110,5 @@ There is no noticeable change to the scores by school type summary after correct
 
 ## Summary
 Replacing the math and reading scores did not imply any major change to the school district analysis.\
-The following metrics were slightly affected by the correction: the district summary, the school summary for Thomas High School, the scores by school spending and the scores by school size summaries.
+The scores by grade summary for Thomas High School was obviously changed and displays NaN values for its ninth-graders math and reading scores.\
+ The following metrics were slightly affected by the correction: the district summary, the school summary for Thomas High School, the scores by school spending and the scores by school size summaries.
